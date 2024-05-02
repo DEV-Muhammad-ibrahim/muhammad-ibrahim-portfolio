@@ -1,0 +1,58 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "fun",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "hunt",
+							"type": "Text"
+						}
+					],
+					[
+						"time_period",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "traffic",
+							"type": "Text"
+						}
+					],
+					[
+						"institution",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "secret",
+							"type": "Text"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Duis culpa minim enim magna velit enim voluptate ut proident ullamco nostrud laborum nostrud reprehenderit. Duis Lorem consectetur excepteur duis consectetur dolor ex anim exercitation velit id. Officia ut officia ex Lorem mollit in qui reprehenderit eiusmod in sit laboris ea nulla ipsum."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]
