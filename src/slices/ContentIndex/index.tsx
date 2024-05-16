@@ -19,9 +19,9 @@ const BlogPostIndex = async ({
   const blogPosts = await client.getAllByType("blog_post");
   const projects = await client.getAllByType("project");
 
-  const contentType = slice.primary.content_type || "Blog";
+  const contentType = slice.primary.content_type || "Blog ";
 
-  const items = contentType === "Blog" ? blogPosts : projects;
+  const items = contentType === "Blog " ? blogPosts : projects;
 
   return (
     <Bounded
